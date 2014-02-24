@@ -1,0 +1,10 @@
+{>"layouts/master" /}
+{<body}
+<h1>{@pre type="content" key="mongo.headline"/}</h1>
+ {title}
+ <ul>
+ {#docs}
+<li>{name}</li>{~n}
+ {/docs}
+ </ul>
+{/body}
