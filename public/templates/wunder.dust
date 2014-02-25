@@ -9,12 +9,13 @@
     </tr>
   </thead>
   <tbody>
-	{#docs}
-	<tr>
-        <td data-indent="0">{state}, {city}</td>
+	{#wunderDocs}
+	<tr align="center">
+        <td data-indent="0">{state}</td>
+		<td data-indent="0" align="left">&nbsp&nbsp&nbsp{city}</td>
         <td data-indent="0">{currentTemp}</td>
     </tr>
-	{/docs}
+	{/wunderDocs}
   </tbody>
 </table>
 {/body}
